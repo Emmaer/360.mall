@@ -296,6 +296,7 @@ a {
 .bottom {
   border-top: 1px solid #ccc;
   height: 78px;
+  margin-bottom: 140px;
 }
 .bottom .b1 {
   display: inline-block;
