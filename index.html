@@ -2,264 +2,573 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>360商城</title>
-
-
-    <script src="js/jquery.js"></script>
-    <script src="js/index.js"></script>
-    <script src="js/swiper.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Document</title>
     <link rel="stylesheet" href="css/swiper.min.css">
-    <link rel="stylesheet" href="css/index.css">
-
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.min.css">
+    <script src="js/swiper.min.js"></script>
+    <script src="js/index.js"></script>
 </head>
 <body >
-<!--banner start-->
 <div class="main">
-<div class="swiper-container container">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="images/banner1.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="images/banner2.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="images/banner3.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="images/banner4.png" alt=""></div>
-        <div class="swiper-slide"><img src="images/banner5.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="images/banner6.jpg" alt=""></div>
+    <!--banner-->
+    <div class="swiper-container header">
+        <div class="swiper-wrapper banner">
+            <div class="swiper-slide"><img src="images/banner.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/banner2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/banner3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/banner4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/banner5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/banner6.jpg" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+
     </div>
-    <div class="swiper-pagination"></div>
-</div>
-<!--banner end-->
-<!--icon start-->
-<div class="container icon">
-    <a href=""><img src="images/icon1.png" alt="">
-    智品牌</a>
-    <a href=""><img src="images/icon2.png" alt="">360°</a>
-    <a href=""><img src="images/icon3.png" alt="">F码</a>
-    <a href=""><img src="images/‭icon4.png" alt="">社区</a>
-    <a href=""><img src="images/icon5.png" alt="">一元夺宝</a>
-</div>
-<!--icon end-->
-<!--tooutiao start-->
-<iframe src="toutiao.html" frameborder="0"  style="width:768px;height:40px;">
-
-</iframe>
-<!--toutiao end-->
-<div class="container buy">
-    <div class="buy-title">
-      <span class="s1">掌上抢</span>
-        <span class="time">距结束</span>
-        <a href=""><span>热销酷品限时秒</span></a>
+    <!--导航-->
+    <div class="nav ">
+        <a href=""><img src="images/nav/1.png" alt="">致品牌</a>
+        <a href=""><img src="images/nav/2.png" alt="">360</a>
+        <a href=""><img src="images/nav/3.png" alt="">F码</a>
+        <a href=""><img src="images/nav/4.png" alt="">社区</a>
+        <a href=""><img src="images/nav/5.png" alt="">一元夺宝</a>
     </div>
-    <div class="show1">
-        <ul>
-            <li>
-                <a href=""><img src="images/buy1.jpg" alt=""></a>
-            </li>
-            <span class="dis">乐心mambo智能手环玫红色</span>
-            <span class="price">￥29.9</span>
-        </ul>
-        <ul>
-            <li>
-                <a href=""><img src="images/buy2.jpg" alt=""></a>
-            </li>
-            <span class="dis">360手机大神Note3</span>
-            <span class="price">￥999</span>
-        </ul>
-        <ul>
-            <li>
-                <a href=""><img src="images/buy3.jpg" alt=""></a>
-            </li>
-            <span class="dis">咚咚智能音响A1（黑色）</span>
-            <span class="price" style="diaplay:inline;">￥399<span style="text-decoration:line-through;color:#999;font-size:13px">￥499</span></span>
-
-        </ul>
+    <iframe src="index1.html" frameborder="0"  style="max-width:768px ;height: 40px">
+    </iframe>
+    <div class="ro"></div>
+    <!--一楼标题-->
+    <div class="floor1">
+        <div class="fL"><a href=""><span>掌上抢</span></a></div>
+        <div class="fC"><a href=""><span>距离结束</span></a></div>
+        <div class="fR"><a href=""><span>热销酷品限时秒</span></a></div>
     </div>
-</div>
+    <!--一楼内容-->
+    <div class="floor1C">
+        <div >
+            <a href="">
+                <img src="images/2.jpg" alt="">
+                <span class="one">乐心mam智能手环玫红色</span>
+                <span>￥29.9</span>
+            </a>
 
-<div class="blank ">
-    <span><em>-</em>明星单品<em>-</em></span>
-</div>
-
-<div class="container mxdp">
-    <ul>
-        <a href="">
-            <span class="like"><span class="span1"></span>送内存卡</span>
-            <li><img src="images/mxdp1.jpg" alt=""></li>
-            <span class="dis">咚咚智能音响A1（黑色）</span>
-            <span class="price">￥999</span>
-        </a>
-        <a href="">
-            <span class="like"><span class="span1"></span>光纤级</span>
-            <li><img src="images/mxdp2.jpg" alt=""></li>
-            <span class="dis">咚咚智能音响A1（黑色）</span>
-            <span class="price">￥999</span>
-        </a>
-    </ul>
-    <ul>
-        <a href="">
-            <span class="like"><span class="span2"></span>送内存卡</span>
-            <li><img src="images/mxdp3.jpg" alt=""></li>
-            <span class="dis">咚咚智能音响A1（黑色）</span>
-            <span class="price">￥999</span>
-        </a>
-        <a href="">
-            <span class="like"><span class="span2"></span>光纤级</span>
-            <li><img src="images/mxdp4.jpg" alt=""></li>
-            <span class="dis">咚咚智能音响A1（黑色）</span>
-            <span class="price">￥999</span>
-        </a>
-    </ul>
-    <ul>
-        <a href="">
-            <span class="like"><span class="span1"></span>送内存卡</span>
-            <li><img src="images/mxdp5.png" alt=""></li>
-            <span class="dis">咚咚智能音响A1（黑色）</span>
-            <span class="price">￥999</span>
-        </a>
-        <a href="">
-            <span class="like"><span class="span1"></span>光纤级</span>
-            <li><img src="images/mxdp6.jpg" alt=""></li>
-            <span class="dis">咚咚智能音响A1（黑色）</span>
-            <span class="price">￥999</span>
-        </a>
-    </ul>
-    <ul>
-        <a href="">
-            <span class="like"><span class="span2"></span>送内存卡</span>
-            <li><img src="images/mxdp7.jpg" alt=""></li>
-            <span class="dis">咚咚智能音响A1（黑色）</span>
-            <span class="price">￥999</span>
-        </a>
-        <a href="">
-            <span class="like"><span class="span2"></span>光纤级</span>
-            <li><img src="images/mxdp8.jpg" alt=""></li>
-            <span class="dis">咚咚智能音响A1（黑色）</span>
-            <span class="price">￥999 <span style="background-color:#f55;color:#fff;font-size:12px;padding:3px; ">热销</span>   </span>
-        </a>
-    </ul>
-</div>
-
-<div class="blank">
-    <em>-</em> 新品上市 <em>-</em>
-</div>
-
-<div class="container-fluid xp">
-    <a href=""><img src="images/m1.jpg" alt=""></a>
-    <span class="prices">￥149</span>
-
-<span class="cls-1">香港九猪便携多功能果汁杯</span>
-<span class="cls-2">迷你全能榨汁杯 健康美味带着走 走到哪里榨到哪儿</span>
-</div>
-<div class="container-fluid xp">
-    <a href=""><img src="images/m1.jpg" alt=""></a>
-    <span class="prices">￥149</span>
-
-    <span class="cls-1">香港九猪便携多功能果汁杯</span>
-    <span class="cls-2">迷你全能榨汁杯 健康美味带着走 走到哪里榨到哪儿</span>
-</div>
-<div class="container-fluid xp">
-    <a href=""><img src="images/m1.jpg" alt=""></a>
-    <span class="prices">￥149</span>
-
-    <span class="cls-1">香港九猪便携多功能果汁杯</span>
-    <span class="cls-2">迷你全能榨汁杯 健康美味带着走 走到哪里榨到哪儿</span>
-</div>
-
-<div class="blank" >
-    <em>-</em>手机<em>-</em>
-</div>
-
-<div class="container-fluid xp">
-    <a href=""><img src="images/m1.jpg" alt=""></a>
-    <span class="prices">￥149</span>
-</div>
-
-<div class="container sj">
-<ul>
-        <a href="">
-            <li><img src="images/sj1.jpg" alt=""></li>
-            <span class="s2">大神Note3全网通</span>
-            <span class="s3">千元指纹智能手机</span>
-            <span class="s4">￥999</span>
-        </a>
-        <a href="">
-            <li><img src="images/sj2.jpg" alt=""></li>
-            <span class="s2">大神Note3全网通</span>
-            <span class="s3">千元指纹智能手机</span>
-            <span class="s4">￥999</span>
-        </a>
-    </ul>
-    <ul>
-        <a href="">
-            <li><img src="images/sj3.jpg" alt=""></li>
-            <span class="s2">大神Note3全网通</span>
-            <span class="s3">千元指纹智能手机</span>
-            <span class="s4">￥999</span>
-        </a>
-        <a href="">
-            <li><img src="images/sj4.jpg" alt=""></li>
-            <span class="s2">大神Note3全网通</span>
-            <span class="s3">千元指纹智能手机</span>
-            <span class="s4">￥999</span>
-        </a>
-    </ul>
-    <ul>
-        <a href="">
-            <li><img src="images/sj5.jpg" alt=""></li>
-            <span class="s2">大神Note3全网通</span>
-            <span class="s3">千元指纹智能手机</span>
-            <span class="s4">￥999<span style="background-color: #f55;color:#fff;padding:3px;font-size: 12px;float:right">新品</span></span>
-        </a>
-        <a href="">
-            <li><img src="images/sj6.jpg" alt=""></li>
-            <span class="s2">大神Note3全网通</span>
-            <span class="s3">千元指纹智能手机</span>
-            <span class="s4">￥999</span>
-        </a>
-    </ul>
-</div>
-
-
-<div class="blank" style="font-size: 12px;">点击查看更多商品>></div>
-<div class="container bottom">
-    <div class="b1">
-        <span class="cir">7</span>
-        <span style="font-size:12px; margin-top:8px;display: block; height: 12px;line-height: 12px;color:#666">7天无理由退货</span>
+        </div>
+        <div >
+            <a href="">
+                <img src="images/3.jpg" alt="">
+                <span class="one">360手机大神Note3 (黑色)</span>
+                <span>￥29.9</span>
+            </a>
+        </div>
+        <div >
+            <a href="">
+                <img src="images/4.jpg" alt="">
+                <span class="one">咚咚智能音响A1 （黑色）</span>
+                <span>￥29.9</span>
+            </a>
+        </div>
     </div>
-    <div class="b1">
-        <span class="cir">15</span>
-        <span style="font-size:12px; margin-top:8px;display: block; height: 12px;line-height: 12px;color:#666">15天免费换货</span>
+    <div class="floornav">-明星单品-</div>
+    <div class="floor2">
+        <div>
+           <a class="icon2" href="">
+               <img  class="icons" src="images/icon2.png" alt="">
+               <span>送内存卡</span>
+           </a>
+            <a href="">
+                <img class="imgs" src="images/6.jpg" alt="">
+                <span class="one">乐心mam智能手环玫红色</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div>
+            <a class="icon2" href="">
+                <img  class="icons" src="images/icon2.png" alt="">
+                <span>送内存卡</span>
+            </a>
+            <a href="">
+                <img class="imgs" src="images/7.jpg" alt="">
+                <span class="one">乐心mam智能手环玫红色</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div>
+            <a class="icon2" href="">
+                <img  class="icons" src="images/icon1.png" alt="">
+                <span>送内存卡</span>
+            </a>
+            <a href="">
+                <img class="imgs" src="images/8.jpg" alt="">
+                <span class="one">乐心mam智能手环玫红色</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div>
+            <a class="icon2" href="">
+                <img  class="icons" src="images/icon1.png" alt="">
+                <span>送内存卡</span>
+            </a>
+            <a href="">
+                <img class="imgs" src="images/9.jpg" alt="">
+                <span class="one">乐心mam智能手环玫红色</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div>
+            <a class="icon2" href="">
+                <img  class="icons" src="images/icon2.png" alt="">
+                <span>送内存卡</span>
+            </a>
+            <a href="">
+                <img class="imgs" src="images/10.jpg" alt="">
+                <span class="one">乐心mam智能手环玫红色</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div>
+            <a class="icon2" href="">
+                <img  class="icons" src="images/icon2.png" alt="">
+                <span>送内存卡</span>
+            </a>
+            <a href="">
+                <img class="imgs" src="images/11.jpg" alt="">
+                <span class="one">乐心mam智能手环玫红色</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div>
+            <a class="icon2" href="">
+                <img  class="icons" src="images/icon1.png" alt="">
+                <span>送内存卡</span>
+            </a>
+            <a href="">
+                <img class="imgs" src="images/5.jpg" alt="">
+                <span class="one">乐心mam智能手环玫红色</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div>
+            <a class="icon2" href="">
+                <img  class="icons" src="images/icon1.png" alt="">
+                <span>送内存卡</span>
+            </a>
+            <a href="">
+                <img class="imgs" src="images/9.png" alt="">
+                <span class="one">乐心mam智能手环玫红色</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
     </div>
-    <div class="b1">
-        <span class="cir">包</span>
-        <span style="font-size:12px; margin-top:8px;display: block; height: 12px;line-height: 12px;color:#666">满99元包邮</span>
+    <div class="floornav">-新品上市-</div>
+    <!--1-->
+    <div class="floor3">
+        <img src="images/12.jpg" alt="">
     </div>
+    <div class="bottom">
+        <p><strong>香港九猪便携多功能果汁杯</strong></p>
+        <p>迷你全能榨汁杯 健康美味带着走 走到哪里榨到哪儿</p>
+    </div>
+    <!--2-->
+    <div class="floor3">
+        <img src="images/13.jpg" alt="">
+    </div>
+    <div class="bottom">
+        <p><strong>坚果G1 懂生活的智能影院</strong></p>
+        <p>拥有坚果，让生活多一种可能，有它的地方，就是电影院</p>
+    </div>
+    <!--3-->
+    <div class="floor3">
+        <img src="images/14.jpg" alt="">
+    </div>
+    <div class="bottom">
+        <p><strong>360儿童手表3S</strong></p>
+        <p>能通话的智能彩屏手表 还是的童年好伴侣</p>
+    </div>
+    <!--4-->
+    <div class="floornav">-手机-</div>
+    <div class="floor3">
+        <img src="images/15.jpg" alt="">
+    </div>
+    <!--floor4-->
+    <div class="floor2">
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/16.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/17.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/18.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/19.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/20.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/21.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+     </div>
+    <!--five-->
+    <div class="floornav">-智能居家-</div>
+    <div class="floor3">
+        <img src="images/22.jpg" alt="">
+    </div>
+    <div class="floor2">
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/23.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/24.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/25.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/26.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/27.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/28.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+    </div>
+    <!--six-->
+    <div class="floornav">-智能商品-</div>
+    <div class="floor3">
+        <img src="images/29.jpg" alt="">
+    </div>
+    <div class="floor2">
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/30.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/31.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/32.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/33.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/34.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/28.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+    </div>
+    <!--seven-->
+    <div class="floornav">-智能穿戴-</div>
+    <div class="floor3">
+        <img src="images/35.jpg" alt="">
+    </div>
+    <div class="floor2">
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/30.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/31.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/32.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/33.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/34.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/28.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+    </div>
+    <!--eight-->
+    <div class="floornav">-智能影音-</div>
+    <div class="floor3">
+        <img src="images/36.jpg" alt="">
+    </div>
+    <div class="floor2">
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/30.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/31.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/32.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/33.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/34.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/28.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+    </div>
+    <!--nine-->
+    <div class="floornav">-充电设备-</div>
+    <div class="floor3">
+        <img src="images/37.jpg" alt="">
+    </div>
+    <div class="floor2">
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/30.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/31.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/32.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/33.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/34.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+        <div class="four">
+            <a href="">
+                <img class="imgs" src="images/28.jpg" alt="">
+                <span class="one ">乐心mam智能手环玫红色</span>
+                <span>千元指纹智能手机</span>
+                <span >￥29.9</span>
+            </a>
+        </div>
+    </div>
+    <div class="floornav"><a href="">查看更多设备>></a></div>
     <div class="footer">
-        <span>客服热线<a>400-6822-360</a> 周一到周日 9:00-18:00</span>
-        <span>360商城©2013-2016 版权所有</span>
+        <div>
+            <a href="">
+                <li>7</li>
+                <li>七天无理由退货</li>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <li>15</li>
+                <li>15天免费换货</li>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <li>包</li>
+                <li>满99元包邮</li>
+            </a>
+        </div>
+    </div>
+    <div class="fotter2">
+        <p>客服热线： 周一到周日 tel:400-6822-360  9:00-18:00</p>
+        <p>360商城©2013-2016 版权所有</p>
+    </div>
+    <div class="ro"></div>
+    <div class="footer-nav">
+        <div class="footer-nav-c">
+            <a href="#">
+                <img src="images/3.png" alt="">
+                <span>首页</span>
+            </a>
+            <a href="#">
+                <img src="images/4.png" alt="">
+                <span>分类</span>
+            </a>
+            <a href="#">
+                <img src="images/5.png" alt="">
+                <span>购物车</span>
+            </a>
+            <a href="#">
+                <img src="images/6.png" alt="">
+                <span>我</span>
+            </a>
+
+        </div>
+    </div>
+    <div class="down">
+        <span><img  class="end" src="images/11.png" alt=""></span>
+        <span><img class="youqing" src="images/10.png" alt=""></span>
+        <div class="downtop">
+            <span>360商城APP</span><br>
+            <span>客户端首次登录送5元现金券</span>
+        </div>
     </div>
 </div>
-</div>
-<!--<div class=" nav">-->
-<div class="container-fluid">
-    <div class="aaa">
-    <a href="">
-        <img src="images/nav1.png" alt="">
-        <span>首页</span>
-    </a>
-    <a href="">
-     <img src="images/nav2.png" alt="">
-        <span>首页</span>
-    </a>
-    <a href="">
-        <img src="images/nav3.png" alt="">
-        <span>首页</span>
-    </a>
-    <a href="">
-        <img src="images/nav4.png" alt="">
-        <span>首页</span>
-    </a>
-    </div>
-   </div>
-<!--</div>-->
 </body>
 </html>
